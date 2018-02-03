@@ -2,7 +2,7 @@
   "name": "styled-grid-components",
   "version": "0.0.1",
   "description": "Reusable Styled Components with CSS Grid Layout",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "peerDependencies": {
     "react": "^16.2.0"
   },
@@ -14,6 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack",
+    "babel": "babel ./src --out-dir lib/",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
